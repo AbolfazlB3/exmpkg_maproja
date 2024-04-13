@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exmpkg_maproja"
+version = "0.0.1"
+authors = [{ name = "Abolfazl", email = "abolfazl850@gmail.com" }]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/AbolfazlB3/exmpkg_maproja"
+Issues = "https://github.com/AbolfazlB3/exmpkg_maproja/issues"
